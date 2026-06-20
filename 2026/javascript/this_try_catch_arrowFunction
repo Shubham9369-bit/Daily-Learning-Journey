@@ -1,0 +1,41 @@
+//This keyword
+
+const student={
+    name:"Shubham",
+    aage:23,
+    eng:95,
+    math:93,
+    phy:97,
+    getAvg(){
+        let avg=(this.eng+this.math+this.phy)/3; //without this keyword avg cannot calculate this keyword refers to the current object 
+        console.log(avg);
+    }
+}
+// student.getAvg();
+
+
+/// Try and catch...
+// console.log("Hello brother!")
+// console.log("Hello brother!")
+// console.log("Hello brother!")
+// console.log("Hello brother!")
+// try{
+//     console.log(a);
+// }catch{
+//     console.log("A is not ddefined it throw error!")
+// }
+////Arrow Function.
+
+const sum=(a)=>{ // now we can righ single argument without paranthesis and if more than one argument then 
+    //we have to use paranthesis
+    return a**2;
+}
+// console.log(sum(2));
+
+
+console.log("Hi there Shubham this side.");
+setTimeout(()=>{
+    console.log("JavaScript");
+},4000);
+
+console.log("Welcome to");
