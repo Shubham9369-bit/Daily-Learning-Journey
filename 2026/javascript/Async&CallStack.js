@@ -14,6 +14,17 @@ function second() {
 
 second();
 
+//Most imp example
+
+console.log("1");
+
+setTimeout(() => {
+    console.log("2");
+}, 0);
+
+console.log("3");
+
+
 //Execution
 
 // second() Call Stack me push hota hai.
